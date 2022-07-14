@@ -1,0 +1,280 @@
+/*
+COLOURS TO USE
+BLACK-TEXT: #000
+BLUE-HOVER #3e619a
+GREY-BACKGROUND #efefef
+GREY-LIGHT #bbbbbb
+GREY-DARK #919191
+*/
+
+/* START OF STYLES */
+/* START OF FONT STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
+
+h1, h2, h3, p{
+    color: #000;
+    font-weight:normal;
+    text-align: center;
+}
+
+h1, h2 h3{
+    font-family: "Montserrat";
+    font-weight: normal;
+}
+
+h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    margin:10px 0px;
+}
+
+h2{
+    font-size: 36px;
+    margin: 10px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 10px;
+}
+
+p{
+    font-family: "Avenir";
+    font-size: 18px;
+}
+
+a{
+    color:#000;
+    text-decoration: none;
+    font-family: "Avenir";
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* END OF FONT STYLES */
+
+body{
+    background-color: #efefef;
+    font-family: "Avenir";
+    margin:0px;
+    width: 100%;
+    cursor: default;
+    overflow-x: hidden;
+}
+
+.top-wrap{
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height:15%;
+}
+
+.header-contact{
+    position: absolute;
+    left:50px;
+    top:15px;
+
+}
+
+.header-contact img{
+    width:50px;
+    padding: 25px;
+}
+
+.top-img{
+    width:100%;
+    height: 80%;
+    text-align: center;
+}
+
+.top-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* START OF MENU STYLES */
+
+.menu{
+    position: absolute;
+    right: 50px;
+    top:15px;
+}
+
+.menu img{
+    width:60px;
+    padding:20px;
+}
+
+.menu img:hover{
+    cursor: pointer;
+}
+
+nav{
+    background: #bbbbbb;
+    position:absolute;
+    right:-350px;
+    width: 350px;
+    transition: 500ms;
+}
+
+nav.show-menu{
+    right: 0px;
+}
+
+nav a{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding:10px 20px;
+}
+
+nav a:hover{
+    color:#3e619a;
+    background: #919191;
+    font-weight: 500;
+}
+
+/* END OF MENU STYLES */
+/* START OF PAGE SELECT STYLES*/
+
+.page-select{
+    background: #bbbbbb;
+    display: inline-block;
+    width: 100%;
+    height:50px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.page-select-button-four{
+    margin: 0px;
+    float: left;
+    width: 25%;
+}
+
+.page-select-button-four a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.page-select-button-four a:hover{
+    color: #efefef;
+    background: #3e619a;
+}
+
+
+/* END OF PAGE SELECT STYLES*/
+/* START OF INNER STYLES */
+
+.full-width{
+    width: 100%;
+    margin:50px 0px
+}
+
+.full-width-content{
+    margin:10px 200px;
+}
+
+.split-section-left{
+    display: flex;
+    margin: 25px 0px;
+}
+
+.split-section-right{
+    display: flex;
+    margin: 25px 0px;
+}
+
+.split-section-content{
+    width:55%;
+    padding: 50px;
+}
+
+.split-img-wrap{
+    background:#3e619a;
+    width: 45%;
+}
+
+.split-img-left{
+    text-align: center;
+    object-fit: cover;
+    padding: 40px 40px 40px 0px;
+    transform: translateX(40px);
+}
+
+.split-img-left img{
+    width: 100%;
+}
+
+.split-img-right{
+    text-align: center;
+    object-fit: cover;
+    padding: 40px 0px 40px 40px;
+    transform: translateX(-40px);
+}
+
+.split-img-right img{
+    width: 100%;
+}
+
+/* START OF ACCORDION STYLES */
+
+.accordion{
+    color: #efefef;
+    background: #919191;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 200;
+    text-transform: uppercase;
+    padding:15px;
+    margin:10px 0px;
+    width:100%;
+    border:none;
+}
+
+.accordion:hover{
+    color:#3e619a;
+    background:#bbbbbb;
+}
+
+.panel{
+    display: none;
+    color: #000;
+    background: #bbbbbb;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* END OF ACCORDION STYLES */
+/* END OF INNER STYLES */
+/* START OF FOOTER STYLES */
+
+.footer{
+    width:100%;
+}
+
+.footer-content{
+    margin:50px 10px 10px 10px;
+    text-align: center;
+}
+
+.footer-content a:hover{
+    color:#4588f5;
+    text-decoration: underline;
+}
+
+.footer-content img{
+    width:50px;
+    
+}
+
+/* END OF FOOTER STYLES */
+/* END OF STYLES */
