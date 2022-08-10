@@ -361,4 +361,33 @@ nav a:hover{
     }
 }
 
+/* END OF MOBILE STYLES */
+/* START OF TABLET LANDSCAPE STYLES */
+
+@media (min-width: 980px) and (max-width: 1190px){
+
+.header{
+    height: 12%;
+}
+
+.top-img{
+    height:88%;
+}
+
+.page-select{
+    position: relative;
+}
+
+}
+
+/* END OF TABLET LANDSCAPE STYLES */
+/* START OF TABLET PORTRAIT STYLES */
+
+@media (min-width: 768px) and (max-width: 979px){
+
+    .page-select{
+        position: relative;
+    }
+
+}
 /* END OF STYLES */
