@@ -367,11 +367,11 @@ nav a:hover{
 @media (min-width: 980px) and (max-width: 1190px){
 
 .header{
-    height: 12%;
+    height: 15%;
 }
 
 .top-img{
-    height:88%;
+    height:85%;
 }
 
 .page-select{
@@ -385,6 +385,13 @@ nav a:hover{
 
 @media (min-width: 768px) and (max-width: 979px){
 
+    .header{
+        height: 12%;
+    }
+    
+    .top-img{
+        height:88%;
+    }
     .page-select{
         position: relative;
     }
